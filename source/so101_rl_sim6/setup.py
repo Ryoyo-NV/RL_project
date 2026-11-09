@@ -17,10 +17,10 @@ EXTENSION_TOML_DATA = toml.load(os.path.join(EXTENSION_PATH, "config", "extensio
 
 # Minimum dependencies required prior to installation
 INSTALL_REQUIRES = [
-    "psutil",
+    #"psutil",
     # The runner/checkpoint schema changed across RSL-RL releases. Keep the
     # training and playback environment on the version validated by this project.
-    "rsl-rl-lib==5.0.1",
+    #"rsl-rl-lib==5.0.1",
 ]
 
 # Installation operation
